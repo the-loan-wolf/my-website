@@ -43,37 +43,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://rishavbhardwaj.in/tags/blog/</loc>
-    <lastmod>2024-04-15T05:38:53+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://rishavbhardwaj.in/tags/</loc>
-    <lastmod>2024-04-15T05:38:53+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://rishavbhardwaj.in/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rishavbhardwaj.in/tags/"
-                />
-  </url><url>
-    <loc>https://rishavbhardwaj.in/tags/tech/</loc>
-    <lastmod>2024-04-15T05:38:53+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://rishavbhardwaj.in/tags/web-dev/</loc>
-    <lastmod>2024-04-15T05:38:53+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</loc>
-    <lastmod>2024-04-15T05:38:53+00:00</lastmod>
+    <lastmod>2024-04-14T23:22:22+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -90,6 +60,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://rishavbhardwaj.in/post/hello-world/"
+                />
+  </url><url>
+    <loc>https://rishavbhardwaj.in/tags/</loc>
+    <lastmod>2024-04-14T23:22:22+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://rishavbhardwaj.in/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rishavbhardwaj.in/tags/"
                 />
   </url><url>
     <loc>https://rishavbhardwaj.in/categories/</loc>
