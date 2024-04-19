@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rishav Bhardwaj</title>
+    <link>https://rishavbhardwaj.in/</link>
+    <description>Recent content on Rishav Bhardwaj</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Apr 2024 04:15:16 +0000</lastBuildDate>
+    <atom:link href="https://rishavbhardwaj.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(Part 2) Making a Hugo Site</title>
+      <link>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</link>
+      <pubDate>Thu, 18 Apr 2024 04:15:16 +0000</pubDate>
+      <guid>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</guid>
+      <description>In our previous blog we talked quite a lot about benefits of keeping your site static and why using hugo for that is best.&#xA;In this post we are going to create a site using hugo and i will also show you how to easily upload and publish daily new content on your static site.&#xA;Let&amp;rsquo;s start without wasting any more time!&#xA;You don&amp;rsquo;t need traditional Computer to follow this guide, you can even use it on your android phone</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://rishavbhardwaj.in/contact/</link>
+      <pubDate>Wed, 17 Apr 2024 18:01:50 +0530</pubDate>
+      <guid>https://rishavbhardwaj.in/contact/</guid>
+      <description>Do you have any suggestion for this site? I would love to hear about it. send your message using below contact form and we will try to reach back to you as soon as possible. Your Name Email Address An email address is required. Message </description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://rishavbhardwaj.in/about/</link>
+      <pubDate>Wed, 17 Apr 2024 17:59:02 +0530</pubDate>
+      <guid>https://rishavbhardwaj.in/about/</guid>
+      <description>I am Rishav Bhardwaj and I am a Software Developer and a Hacker living in India. I started my journey with Android OS Modding Scene and then went on to Linux Kernel development, Reverse Engineering of device driver binaries, And now I do Web Dev for freelancing and to become a solopreneur.</description>
+    </item>
+    <item>
+      <title>Why Hugo Is Best for Blogging Site</title>
+      <link>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</link>
+      <pubDate>Mon, 15 Apr 2024 05:38:53 +0000</pubDate>
+      <guid>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</guid>
+      <description>In this article we will explore three aspects of any web site and why Hugo makes sense for your personal blogging site.&#xA;The three aspects of any web sites are:&#xA;Monthly Expenses Security Development time First lets clear the doubt &amp;ldquo;What is Hugo&amp;rdquo; if you don&amp;rsquo;t know or haven&amp;rsquo;t heard about it yet!&#xA;Hugo is a web framework to generate static sites(sites which don&amp;rsquo;t communicate with server to display content).</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://rishavbhardwaj.in/post/hello-world/</link>
+      <pubDate>Sun, 14 Apr 2024 23:22:22 +0530</pubDate>
+      <guid>https://rishavbhardwaj.in/post/hello-world/</guid>
+      <description>Hello World to my blog site, Here I am going to write about the Topics which really interest me like Technology, Art and Philosophy and some other topics as well. I provide RSS feed for all of my topics so you can subscribe to any one which you like, so my posts on other topic will not bother you.&#xA;There is a comment section on each page of the blog so you can comment your thoughts on that topic and if you need to contact me or have to send me some private message you can go to contact page.</description>
+    </item>
+  </channel>
+</rss>
