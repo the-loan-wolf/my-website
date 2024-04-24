@@ -2,7 +2,8 @@
 var rect = document.getElementById('menu-svg');
 var menu = document.getElementById("menu-nav");
 var menuCont = document.getElementById("menu-cont");
-
+var lang = document.getElementById("menu-lang");
+var social = document.getElementById("menu-social");
 
 function displayMenu() {
   menu.style.display = "block";
@@ -17,6 +18,15 @@ function displayMenu() {
 
   menuCont.style.setProperty("display", "flex");
   menuCont.style.setProperty("flex-direction", "column");
+  menuCont.style.setProperty("justify-content", "space-evenly");
+  menuCont.style.setProperty("height", "30vh");
+  menuCont.style.setProperty("align-items", "center");
+
+  lang.style.setProperty("display", "flex");
+  lang.style.setProperty("justify-content", "center");
+
+  social.style.setProperty("display", "flex");
+  social.style.setProperty("justify-content", "space-around");
 }
 
 function hideMenu() {
