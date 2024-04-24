@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ऋषभ भारद्वाज</title>
-    <link>https://rishavbhardwaj.in/hi/</link>
+    <link>http://localhost:1313/hi/</link>
     <description>Recent content on ऋषभ भारद्वाज</description>
     <generator>Hugo 0.125.1</generator>
     <language>hi</language>
     <lastBuildDate>Tue, 16 Apr 2024 23:22:22 +0530</lastBuildDate>
-    <atom:link href="https://rishavbhardwaj.in/hi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://rishavbhardwaj.in/hi/post/hello-world/</link>
+      <link>http://localhost:1313/hi/post/hello-world/</link>
       <pubDate>Tue, 16 Apr 2024 23:22:22 +0530</pubDate>
-      <guid>https://rishavbhardwaj.in/hi/post/hello-world/</guid>
+      <guid>http://localhost:1313/hi/post/hello-world/</guid>
       <description></description>
     </item>
   </channel>
