@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rishavbhardwaj.in/tags/blog/</loc>
+    <lastmod>2024-04-24T05:38:53+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</loc>
+    <lastmod>2024-04-24T05:38:53+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://rishavbhardwaj.in/post/</loc>
-    <lastmod>2024-04-18T04:15:16+00:00</lastmod>
+    <lastmod>2024-04-24T05:38:53+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -18,7 +28,7 @@
                 />
   </url><url>
     <loc>https://rishavbhardwaj.in/</loc>
-    <lastmod>2024-04-18T04:15:16+00:00</lastmod>
+    <lastmod>2024-04-24T05:38:53+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -32,6 +42,36 @@
                 href="https://rishavbhardwaj.in/"
                 />
   </url><url>
+    <loc>https://rishavbhardwaj.in/tags/</loc>
+    <lastmod>2024-04-24T05:38:53+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://rishavbhardwaj.in/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rishavbhardwaj.in/tags/"
+                />
+  </url><url>
+    <loc>https://rishavbhardwaj.in/tags/tech/</loc>
+    <lastmod>2024-04-24T05:38:53+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rishavbhardwaj.in/tags/web-dev/</loc>
+    <lastmod>2024-04-24T05:38:53+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</loc>
+    <lastmod>2024-04-24T04:15:16+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://rishavbhardwaj.in/contact/</loc>
     <lastmod>2024-04-17T18:01:50+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -39,11 +79,6 @@
   </url><url>
     <loc>https://rishavbhardwaj.in/about/</loc>
     <lastmod>2024-04-17T17:59:02+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://rishavbhardwaj.in/tags/blog/</loc>
-    <lastmod>2024-04-14T23:22:22+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -60,21 +95,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://rishavbhardwaj.in/post/hello-world/"
-                />
-  </url><url>
-    <loc>https://rishavbhardwaj.in/tags/</loc>
-    <lastmod>2024-04-14T23:22:22+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://rishavbhardwaj.in/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rishavbhardwaj.in/tags/"
                 />
   </url><url>
     <loc>https://rishavbhardwaj.in/categories/</loc>

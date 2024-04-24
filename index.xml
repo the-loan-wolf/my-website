@@ -6,8 +6,22 @@
     <description>Recent content on Rishav Bhardwaj</description>
     <generator>Hugo 0.125.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Apr 2024 18:01:50 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2024 05:38:53 +0000</lastBuildDate>
     <atom:link href="https://rishavbhardwaj.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo: The Best Option for Blogging Site</title>
+      <link>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</link>
+      <pubDate>Wed, 24 Apr 2024 05:38:53 +0000</pubDate>
+      <guid>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</guid>
+      <description>This article will discuss why the Hugo framework stands out as the top choice for developers seeking to build a blogging sites.&#xA;Before creating any website, it&amp;rsquo;s crucial to consider three key questions:&#xA;Monthly expenses Security Development time so the best option will be the one who score low in monthly expenses and development time while high in security.&#xA;First, let&amp;rsquo;s clear up the doubt: &amp;ldquo;What is Hugo?&amp;rdquo; if you don&amp;rsquo;t know or haven&amp;rsquo;t heard about it yet!</description>
+    </item>
+    <item>
+      <title>(Part 2) Making a Hugo Site</title>
+      <link>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</link>
+      <pubDate>Wed, 24 Apr 2024 04:15:16 +0000</pubDate>
+      <guid>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</guid>
+      <description>Under Construction 🚧 🏗️ Visit This Page in Two Days</description>
+    </item>
     <item>
       <title>Contact</title>
       <link>https://rishavbhardwaj.in/contact/</link>
@@ -27,7 +41,7 @@
       <link>https://rishavbhardwaj.in/post/hello-world/</link>
       <pubDate>Sun, 14 Apr 2024 23:22:22 +0530</pubDate>
       <guid>https://rishavbhardwaj.in/post/hello-world/</guid>
-      <description>Hello World to my blog site, Here I am going to write about the Topics which really interest me like Technology, Art and Philosophy and some other topics as well. I provide RSS feed for all of my topics so you can subscribe to any one which you like, so my posts on other topic will not bother you.&#xA;There is a comment section on each page of the blog so you can comment your thoughts on that topic and if you need to contact me or have to send me some private message you can go to contact page.</description>
+      <description>Welcome to my blog site! Here I am going to write about the topics that really interest me, like Technology, Art and Philosophy and some other topics as well. I provide RSS feed for all of my topics, so you can subscribe to any one you like, so my posts on other topics will not bother you.&#xA;There is a comment section on each page of the blog, so you can share your thoughts on that topic.</description>
     </item>
   </channel>
 </rss>
