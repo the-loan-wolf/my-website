@@ -92,10 +92,6 @@
                 href="https://rishavbhardwaj.in/post/hello-world/"
                 />
   </url><url>
-    <loc>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://rishavbhardwaj.in/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
