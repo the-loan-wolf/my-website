@@ -6,21 +6,21 @@
     <description>Recent content in Tech on Rishav Bhardwaj</description>
     <generator>Hugo 0.125.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Apr 2024 05:38:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2024 22:47:54 +0530</lastBuildDate>
     <atom:link href="https://rishavbhardwaj.in/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 2 Making a Hugo Site</title>
+      <link>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</link>
+      <pubDate>Wed, 24 Apr 2024 22:47:54 +0530</pubDate>
+      <guid>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</guid>
+      <description>Under Construction 🚧 🏗️ Visit This Page in Two Days</description>
+    </item>
     <item>
       <title>Hugo: The Best Option for Blogging Site</title>
       <link>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</link>
       <pubDate>Wed, 24 Apr 2024 05:38:53 +0000</pubDate>
       <guid>https://rishavbhardwaj.in/post/why-hugo-is-best-for-blogging-site/</guid>
       <description>This article will discuss why the Hugo framework stands out as the top choice for developers seeking to build a blogging sites.&#xA;Before creating any website, it&amp;rsquo;s crucial to consider three key questions:&#xA;Monthly expenses Security Development time so the best option will be the one who score low in monthly expenses and development time while high in security.&#xA;First, let&amp;rsquo;s clear up the doubt: &amp;ldquo;What is Hugo?&amp;rdquo; if you don&amp;rsquo;t know or haven&amp;rsquo;t heard about it yet!</description>
-    </item>
-    <item>
-      <title>(Part 2) Making a Hugo Site</title>
-      <link>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/</guid>
-      <description>Under Construction 🚧 🏗️ Visit This Page in Two Days</description>
     </item>
   </channel>
 </rss>
