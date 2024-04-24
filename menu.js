@@ -1,7 +1,7 @@
 // Get the SVG element
 var rect = document.getElementById('menu-svg');
 var menu = document.getElementById("menu-nav");
-
+var menuCont = document.getElementById("menu-cont");
 
 
 function displayMenu() {
@@ -9,11 +9,14 @@ function displayMenu() {
   menu.style.setProperty("position", "absolute");
   menu.style.setProperty("top", "100px");
   menu.style.setProperty("height", "100vh");
-  menu.style.setProperty("width", "100vh");
+  menu.style.setProperty("width", "100vw");
   menu.style.setProperty("z-index", "10");
   menu.style.setProperty("background-color", "#357edd");
   menu.style.setProperty("left", "0px");
   menu.style.setProperty("padding", "5%");
+
+  menuCont.style.setProperty("display", "flex");
+  menuCont.style.setProperty("flex-direction", "column");
 }
 
 function hideMenu() {

@@ -2,113 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/part-2-making-a-hugo-site/</loc>
-    <lastmod>2024-04-18T04:15:16+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2024-04-18T04:15:16+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://rishavbhardwaj.in/post/</loc>
     <lastmod>2024-04-18T04:15:16+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/post/"
+                href="https://rishavbhardwaj.in/hi/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/"
+                href="https://rishavbhardwaj.in/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://rishavbhardwaj.in/</loc>
     <lastmod>2024-04-18T04:15:16+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/"
+                href="https://rishavbhardwaj.in/hi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://rishavbhardwaj.in/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-04-18T04:15:16+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
-    <lastmod>2024-04-18T04:15:16+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/web-dev/</loc>
-    <lastmod>2024-04-18T04:15:16+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://rishavbhardwaj.in/contact/</loc>
     <lastmod>2024-04-17T18:01:50+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://rishavbhardwaj.in/about/</loc>
     <lastmod>2024-04-17T17:59:02+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/why-hugo-is-best-for-blogging-site/</loc>
-    <lastmod>2024-04-15T05:38:53+00:00</lastmod>
+    <loc>https://rishavbhardwaj.in/tags/blog/</loc>
+    <lastmod>2024-04-14T23:22:22+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/hello-world/</loc>
+    <loc>https://rishavbhardwaj.in/post/hello-world/</loc>
     <lastmod>2024-04-14T23:22:22+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/post/hello-world/"
+                href="https://rishavbhardwaj.in/hi/post/hello-world/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/hello-world/"
+                href="https://rishavbhardwaj.in/post/hello-world/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://rishavbhardwaj.in/tags/</loc>
+    <lastmod>2024-04-14T23:22:22+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/categories/"
+                href="https://rishavbhardwaj.in/hi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://rishavbhardwaj.in/tags/"
+                />
+  </url><url>
+    <loc>https://rishavbhardwaj.in/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://rishavbhardwaj.in/hi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rishavbhardwaj.in/categories/"
                 />
   </url>
 </urlset>
