@@ -6,9 +6,9 @@ var lang = document.getElementById("menu-lang");
 var social = document.getElementById("menu-social");
 
 function displayMenu() {
-  menu.style.display = "block";
+  menu.classList.add("db");
   menu.style.setProperty("position", "absolute");
-  menu.style.setProperty("top", "100px");
+  menu.style.setProperty("top", "calc(2rem + 4rem)");
   menu.style.setProperty("height", "100vh");
   menu.style.setProperty("width", "100vw");
   menu.style.setProperty("z-index", "10");
@@ -25,17 +25,19 @@ function displayMenu() {
   lang.style.setProperty("display", "flex");
   lang.style.setProperty("justify-content", "center");
 
-  social.style.setProperty("display", "flex");
-  social.style.setProperty("justify-content", "space-around");
+  //social.style.setProperty("display", "flex");
+  //social.style.setProperty("justify-content", "space-around");
 }
 
 function hideMenu() {
-  menu.style.display = "none";
+  menu.classList.add("dn");
+  menu.classList.remove("db");
 }
 
 function toggleMenu() {
-  if (menu.style.display === "none"){
+  if (menu.classList.contains("dn")){
     displayMenu();
+    menu.classList.remove("dn");
   }else{
     hideMenu();
   }
@@ -61,6 +63,6 @@ rect.addEventListener('click', function() {
   toggleMenu();
 });
 
-window.onload = function (e) {
- getTheState(); 
-}
+//window.onload = function (e) {
+// getTheState(); 
+//}
