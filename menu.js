@@ -22,8 +22,10 @@ function displayMenu() {
   menuCont.style.setProperty("height", "30vh");
   menuCont.style.setProperty("align-items", "center");
 
-  lang.style.setProperty("display", "flex");
-  lang.style.setProperty("justify-content", "center");
+  if(lang !== null){
+    lang.style.setProperty("display", "flex");
+    lang.style.setProperty("justify-content", "center");
+  }
 
   //social.style.setProperty("display", "flex");
   //social.style.setProperty("justify-content", "space-around");
