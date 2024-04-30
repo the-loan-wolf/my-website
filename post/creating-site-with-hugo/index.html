@@ -13,9 +13,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Part 2 Making a Hugo Site | Rishav Bhardwaj</title>
+    <title>Part 2: Making a Site with HUGO | Rishav Bhardwaj</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Under Construction 🚧 🏗️ Visit This Page in Two Days">
+    <meta name="description" content="In our previous blog we talked quite a lot about benefits of keeping your site static and why using hugo for that is best.
+In this post we are going to create a site using hugo and i will also show you how to easily create new content on your static site.
+Let&rsquo;s start without wasting any more time!
+You don&rsquo;t need a traditional Computer to follow this guide, you can even use it on your android phone.">
     <meta name="generator" content="Hugo 0.125.1">
     
     
@@ -41,29 +44,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
 
     
-      <link rel="canonical" href="https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/">
+      <link rel="canonical" href="https://rishavbhardwaj.in/post/creating-site-with-hugo/">
     
 
-    <meta property="og:url" content="https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/">
+    <meta property="og:url" content="https://rishavbhardwaj.in/post/creating-site-with-hugo/">
   <meta property="og:site_name" content="Rishav Bhardwaj">
-  <meta property="og:title" content="Part 2 Making a Hugo Site">
-  <meta property="og:description" content="Under Construction 🚧 🏗️ Visit This Page in Two Days">
+  <meta property="og:title" content="Part 2: Making a Site with HUGO">
+  <meta property="og:description" content="In our previous blog we talked quite a lot about benefits of keeping your site static and why using hugo for that is best.
+In this post we are going to create a site using hugo and i will also show you how to easily create new content on your static site.
+Let&amp;rsquo;s start without wasting any more time!
+You don&amp;rsquo;t need a traditional Computer to follow this guide, you can even use it on your android phone.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
   <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2024-04-24T22:47:54+05:30">
-    <meta property="article:modified_time" content="2024-04-24T22:47:54+05:30">
+    <meta property="article:published_time" content="2024-04-30T20:47:54+05:30">
+    <meta property="article:modified_time" content="2024-04-30T20:47:54+05:30">
     <meta property="article:tag" content="Blog">
     <meta property="article:tag" content="Web Dev">
     <meta property="article:tag" content="Tech">
 
-  <meta itemprop="name" content="Part 2 Making a Hugo Site">
-  <meta itemprop="description" content="Under Construction 🚧 🏗️ Visit This Page in Two Days">
-  <meta itemprop="datePublished" content="2024-04-24T22:47:54+05:30">
-  <meta itemprop="dateModified" content="2024-04-24T22:47:54+05:30">
-  <meta itemprop="wordCount" content="10">
-  <meta itemprop="keywords" content="Blog,Web Dev,Tech"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Part 2 Making a Hugo Site">
-<meta name="twitter:description" content="Under Construction 🚧 🏗️ Visit This Page in Two Days">
+  <meta itemprop="name" content="Part 2: Making a Site with HUGO">
+  <meta itemprop="description" content="In our previous blog we talked quite a lot about benefits of keeping your site static and why using hugo for that is best.
+In this post we are going to create a site using hugo and i will also show you how to easily create new content on your static site.
+Let&rsquo;s start without wasting any more time!
+You don&rsquo;t need a traditional Computer to follow this guide, you can even use it on your android phone.">
+  <meta itemprop="datePublished" content="2024-04-30T20:47:54+05:30">
+  <meta itemprop="dateModified" content="2024-04-30T20:47:54+05:30">
+  <meta itemprop="wordCount" content="556">
+  <meta itemprop="keywords" content="Blog,Web Dev,Tech"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Part 2: Making a Site with HUGO">
+<meta name="twitter:description" content="In our previous blog we talked quite a lot about benefits of keeping your site static and why using hugo for that is best.
+In this post we are going to create a site using hugo and i will also show you how to easily create new content on your static site.
+Let&rsquo;s start without wasting any more time!
+You don&rsquo;t need a traditional Computer to follow this guide, you can even use it on your android phone.">
 
       
   
@@ -83,8 +95,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    
   
 
-  <header>
-    <div class="bg-blue">
+  
+  <header class="cover bg-top" style="background-image: url('/post/creating-site-with-hugo/hugo-logo-wide.svg');">
+    <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex flex-l justify-between items-center center">
     <a href="/" class="w-60 f3 fw2 hover-white no-underline white-90 dib">
@@ -184,6 +197,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </nav>
 
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Part 2: Making a Site with HUGO</div>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -212,7 +231,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div id="sharing" class="mt3 ananke-socials">
     
       
-      <a href="https://twitter.com/intent/tweet?url=https://rishavbhardwaj.in/post/part-2-making-a-hugo-site/&amp;text=Part%202%20Making%20a%20Hugo%20Site" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+      <a href="https://twitter.com/intent/tweet?url=https://rishavbhardwaj.in/post/creating-site-with-hugo/&amp;text=Part%202:%20Making%20a%20Site%20with%20HUGO" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
         
         <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
 </span>
@@ -222,7 +241,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Part 2 Making a Hugo Site</h1>
+      <h1 class="f1 athelas mt3 mb1">Part 2: Making a Site with HUGO</h1>
       
       <p class="tracked">
         By <strong>Rishav Bhardwaj</strong>
@@ -230,17 +249,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2024-04-24T22:47:54+05:30">April 24, 2024</time>
+      <time class="f6 mv4 dib tracked" datetime="2024-04-30T20:47:54+05:30">April 30, 2024</time>
       
 
       
       
-        <span class="f6 mv4 dib tracked"> - One minute read </span>
-        <span class="f6 mv4 dib tracked"> - 10 words </span>
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 556 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="under-construction--">Under Construction 🚧 🏗️</h2>
-<p>Visit This Page in Two Days</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>In our <a href="/post/why-hugo-is-best-for-blogging-site/">previous blog</a> we talked quite a lot about benefits of keeping your site static and why using hugo for that is best.</p>
+<p>In this post we are going to create a site using hugo and i will also show you how to easily create new content on your static site.</p>
+<p>Let&rsquo;s start without wasting any more time!</p>
+<p>You don&rsquo;t need a traditional Computer to follow this guide, you can even use it on your  android phone.</p>
+<p>This Guide contains 3 Steps, so lets start with first one.</p>
+<h2 id="step-1-installation">Step 1 Installation</h2>
+<hr>
+<ul>
+<li>
+<p><strong>For PC &amp; Laptop Users:</strong> download and install Git from <a href="https://git-scm.com/downloads">here</a> and Hugo from <a href="https://github.com/gohugoio/hugo/releases">here</a></p>
+</li>
+<li>
+<p><strong>Android Phone Users:</strong> you only need to download and install one application called Termux from <a href="https://f-droid.org/repo/com.termux_118.apk">here</a> (f-droid).</p>
+</li>
+</ul>
+<p>now open the Termux App and let it finish the first time initialization, after that copy and paste these code</p>
+<pre tabindex="0"><code> pkg update &amp;&amp; pkg upgrade &amp;&amp; pkg install git hugo micro
+</code></pre><blockquote>
+<p>Micro is a modern and easy terminal text editor that&rsquo;s why we are installing it too!</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+<picture>
+    <source media="(max-width:401px)" srcset="https://rishavbhardwaj.in/post/creating-site-with-hugo/termux_hud50df34b55ac32d437960d5f3732b5a0_81182_400x0_resize_q75_h2_box_3.webp">
+    <img src="https://rishavbhardwaj.in/post/creating-site-with-hugo/termux_hud50df34b55ac32d437960d5f3732b5a0_81182_700x0_resize_q75_h2_box_3.webp" alt="termux screenshot" style="width:auto;">
+</picture>
+
+<h2 id="step-2-creating-site">Step 2 Creating Site</h2>
+<hr>
+<p>Remember in previous article we talked about layout files? Hugo need those files to generate your site and content but in this article we are not going to do any coding. there are lots of Hugo layout available, almost all of them are free and they are called <strong>Hugo Themes</strong>. We are going to use the default recommended theme from Hugo <strong>ananke</strong>.</p>
+<blockquote>
+<p>Make the site and then go inside the new generated folder</p>
+</blockquote>
+<pre tabindex="0"><code>hugo new site name-of-the-site &amp;&amp; cd name-of-the-site
+</code></pre><blockquote>
+<p>make the current folder a Git repository for backing it up and uploading the source code to github</p>
+</blockquote>
+<pre tabindex="0"><code>git init
+</code></pre><blockquote>
+<p>Let&rsquo;s install the theme</p>
+</blockquote>
+<pre tabindex="0"><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</code></pre><blockquote>
+<p>telling hugo to use our installed theme</p>
+</blockquote>
+<pre tabindex="0"><code>echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+</code></pre><p>you can even open the hugo.toml with any text editor and manually add the <code>theme = 'ananke'</code> line.</p>
+<p>And we are done! To see the site run this command</p>
+<pre tabindex="0"><code>hugo server
+</code></pre><p>this will start the live development server and to open the site go to this address in your browser</p>
+<pre tabindex="0"><code>http://localhost:1313/
+</code></pre><p>!Please check the port number printed on the terminal/console if it is 1313 or something else and if it is something else then change the address in the browser respectively and then site will open.</p>
+<h2 id="step-3-creating-content">Step 3 Creating Content</h2>
+<hr>
+<p>Now our site is working lets learn how to add new pages to our site because currently it&rsquo;s blank.</p>
+<blockquote>
+<p>to add new page</p>
+</blockquote>
+<pre tabindex="0"><code>hugo new content my-first-blog.md
+</code></pre><p>files ending with .md are markdown files they are plain text format for writing structured documents like adding boldness, italic to the word, making word &amp; sentences big and adding images. It&rsquo;s really simple, it&rsquo;s like writing MS Word document but without MS Word, you can learn it in 5min from <a href="https://commonmark.org/help/">here</a>. It&rsquo;s great because you don&rsquo;t have to write or learn HTML.</p>
+<p>open the my-first-blog.md file inside content folder with any text editor and write anything inside it after already written last line and save it.</p>
+<p>We have to again run</p>
+<pre tabindex="0"><code>hugo server
+</code></pre><p>because we closed the previous one to run other commands.</p>
+<p>now you will see your post on the homepage of your site.</p>
+<h2 id="in-the-next-post-we-are-going-to-host-our-new-site-for-free-and-i-will-also-show-you-how-to-upload-new-content-easily">In the next post we are going to host our new site for free and I will also show you how to upload new content easily!</h2>
 <ul class="pa0">
   
    <li class="list di">
