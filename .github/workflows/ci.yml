@@ -1,0 +1,28 @@
+name: Build Hugo Site with Private Submodule
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          token: ${{ secrets.SUBMODULE_PAT }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.121.2'  # or whatever version you use
+          extended: true
+
+      - name: Build the Hugo site
+        run: hugo -d docs --minify
+
