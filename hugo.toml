@@ -1,0 +1,4 @@
+baseURL = 'https://rishavbhardwaj.in/'
+languageCode = 'en-us'
+title = 'rishav bhardwaj'
+theme = "nostyleplease"
